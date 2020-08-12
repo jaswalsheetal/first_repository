@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ruuner_file" project="com.orangebdd" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runner_file.ruuner_file" time="54.624">
+    <testsuite name="Feature: check the login functionallity" time="54.624">
+      <testcase name="login the application with valid credtionals" classname="check the login functionallity" time="18.876"/>
+      <testcase name="login the application with valid credtionals" classname="check the login functionallity" time="17.381"/>
+      <testcase name="login the application with valid credtionals" classname="check the login functionallity" time="18.367"/>
+    </testsuite>
+  </testsuite>
+</testrun>
