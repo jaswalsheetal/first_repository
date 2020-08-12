@@ -1,0 +1,4 @@
+# Created at 2020-07-22T19:19:17.183
+Boot Manifest-JAR contains absolute paths in classpath 'D:\automation_1june\com.orangehrmlivee\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

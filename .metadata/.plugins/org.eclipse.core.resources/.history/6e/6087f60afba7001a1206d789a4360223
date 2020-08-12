@@ -1,0 +1,30 @@
+package radio_button;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class second_chance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+	String path=System.getProperty("user.dir")+"//driver//chromedriver.exe";
+	System.setProperty("webdriver.chrome.driver", path);
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.facebook.com/");
+	List<WebElement> radio=driver.findElements(By.xpath("//input[@type='radio']"));
+	for(int i=0;i<radio.size();i++)
+	{
+		 String value=radio.get(i).getAttribute("value");
+		//String value=local.getAttribute("value");
+		System.out.println(value);
+	}
+	driver.close();
+
+	}
+
+}

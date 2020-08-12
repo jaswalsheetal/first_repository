@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="smoke">
+  <include name="sanity">
+  </include>
+  </include>
+  </run></groups>
+    <classes>
+      <class name="btes_testng_2nd.NewTest">
+      <methods>
+      <include name="homepage"/>
+      <include name ="admin"/>
+      <include name="add"/>
+      <include name="delete"/>
+      </methods>
+      </class>
+    </classes>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

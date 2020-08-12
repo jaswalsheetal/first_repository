@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.facebook.com.facebooklogin.homepage">
+        <methods>
+          <include name="password"/>
+          <include name="gender"/>
+          <include name="dob"/>
+          <include name="name"/>
+          <include name="sigup"/>
+          <include name="beforeSuite"/>
+          <include name="mobile"/>
+        </methods>
+      </class> <!-- com.facebook.com.facebooklogin.homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

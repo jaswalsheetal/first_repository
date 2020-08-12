@@ -1,0 +1,7 @@
+Feature: checking the login functionality
+Scenario: checking the login funationallity with valid login credationals
+Given user is on login page
+Then user enter the username
+Then user enter the password
+Then user login 
+Then user is on homepage

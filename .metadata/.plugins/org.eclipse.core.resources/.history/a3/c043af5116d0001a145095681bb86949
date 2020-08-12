@@ -1,0 +1,26 @@
+package com.testcases;
+
+import org.testng.annotations.Test;
+
+import com.HRM.TESTBASE.TESTBASE;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import HOMEPAGE.HOMEPAGEE;
+
+public class hometest extends login_test {
+HOMEPAGEE ooo=new HOMEPAGEE();
+	public hometest() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+@Test
+	public void user()
+	{
+		ooo.homes();
+	}
+
+}

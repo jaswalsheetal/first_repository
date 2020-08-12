@@ -1,0 +1,17 @@
+package runner_file;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+(features={"D:\\automation_1june\\com.orangebdd\\src\\test\\java\\feature_package"},
+glue={"STEP_DEFINATION"},
+dryRun=false
+)
+
+public class ruuner_file {
+	
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="test">
+  
+    <classes>
+    <class name="qualification_script.usermanagement">
+   
+    <methods>
+    <include name="login"/>
+    <include name="User"/>
+   
+     
+      
+     
+   
+    <include name="loginn"/>
+    <include name="Job_Title"/>
+    <include name="Employment_Status"/>
+    <include name="Job_Categories"/>
+    <include name="Workshift"/>
+    <include name="Organization_Structure"/>
+   
+    
+  
+    
+     
+    
+      <include name="qualification_skilss"/>
+      <include name="qualification_education"/>
+      <include name="qualifiaction_licence"/>
+      <include name="qualification_language"/>
+      <include name="qualifiaction_membership"/>
+     </methods>
+      </class>
+     </classes>
+    
+   <!-- Test -->
+   </test>
+</suite> <!-- Suite -->

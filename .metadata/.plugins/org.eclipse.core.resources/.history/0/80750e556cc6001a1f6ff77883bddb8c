@@ -1,0 +1,30 @@
+package btes_dataprovider;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeSuite;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+
+public class NewTest {
+	WebDriver driver;
+	String path;
+	
+  @Test
+  public void f() {
+  }
+  @BeforeSuite
+  public void beforeSuite() {
+	  path=System.getProperty("user.dir")+"//driver//chromedriver.exe";
+	  System.setProperty("webdriver.chrome.driver", path);
+	  driver=new ChromeDriver();
+	  driver.manage().deleteAllCookies();
+	  driver.get("https://www.facebook.com/");
+	  
+  }
+
+  @AfterSuite
+  public void afterSuite() {
+  }
+
+}

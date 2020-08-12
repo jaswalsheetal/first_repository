@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "login the application with valid credtionals",
+        "description": "",
+        "id": "check-the-login-functionallity;login-the-application-with-valid-credtionals;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13044407600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is onn login page",
+            "match": {
+              "location": "loggggggin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289931300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter \"admin\" in username feild and \"admin\" in password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 41
+                }
+              ],
+              "location": "loggggggin.user_enter_in_username_feild_and_in_password_feild(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2344310500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "loggggggin.clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "login the application with valid credtionals",
+        "description": "",
+        "id": "check-the-login-functionallity;login-the-application-with-valid-credtionals;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11041768500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is onn login page",
+            "match": {
+              "location": "loggggggin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253974600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter \"ad\" in username feild and \"ad\" in password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ad\"",
+                  "offset": 38
+                }
+              ],
+              "location": "loggggggin.user_enter_in_username_feild_and_in_password_feild(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1607360700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "loggggggin.clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "login the application with valid credtionals",
+        "description": "",
+        "id": "check-the-login-functionallity;login-the-application-with-valid-credtionals;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12922379000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is onn login page",
+            "match": {
+              "location": "loggggggin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263258800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter \"Admin\" in username feild and \"admin123\" in password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "loggggggin.user_enter_in_username_feild_and_in_password_feild(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13227212100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "loggggggin.clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check the login functionallity",
+    "description": "",
+    "id": "check-the-login-functionallity",
+    "keyword": "Feature",
+    "uri": "D:/automation_1june/com.orangebdd/src/test/java/feature_package/parameter.feature",
+    "tags": []
+  }
+]

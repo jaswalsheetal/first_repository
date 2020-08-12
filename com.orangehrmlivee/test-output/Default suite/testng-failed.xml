@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrm.com.orangehrmlivee.homepage">
+        <methods>
+          <include name="qualifiaction_membership"/>
+          <include name="Job_Categories"/>
+          <include name="qualifiaction_licence"/>
+          <include name="Workshift"/>
+          <include name="qualification_education"/>
+          <include name="beforeSuite"/>
+          <include name="Organization_Structure"/>
+          <include name="login"/>
+          <include name="Job_Title"/>
+          <include name="qualification_skilss"/>
+          <include name="User"/>
+          <include name="Employment_Status"/>
+          <include name="qualification_language"/>
+        </methods>
+      </class> <!-- com.orangehrm.com.orangehrmlivee.homepage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

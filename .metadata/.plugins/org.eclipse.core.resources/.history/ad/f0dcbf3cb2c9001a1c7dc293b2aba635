@@ -1,0 +1,44 @@
+package datadriven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class first_practice {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		
+	String username=null;
+	String password=null;
+	System.setProperty("webdriver.chrome.driver", "C:\\chromed\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+		FileInputStream file=new FileInputStream("C:\\Users\\asus\\Documents\\sheetal.practice.btes.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(file);
+		XSSFSheet sheet=workbook.getSheetAt(0);
+		int row=sheet.getLastRowNum();
+		System.out.println(row);
+		int col=sheet.getRow(0).getLastCellNum();
+		System.out.println(col);
+		for(int i=1;i<=row;i++)
+		{
+	 username= sheet.getRow(i).getCell(0).getStringCellValue();
+			System.out.print(username);
+		
+					
+		password=sheet.getRow(i).getCell(1).getStringCellValue();
+			System.out.print(password);
+			driver.get("https://www.facebook.com/");
+			
+			
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.facebook.com.facebooklogin.homepage">
+      <methods>
+      <include name="name"/>
+      <include name="mobile"/>
+      <include name="password"/>
+      <include name="dob"/>
+      <include name="gender"/>
+      <include name="sigup"/>
+      
+      </methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

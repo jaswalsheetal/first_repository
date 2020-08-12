@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 12, Time elapsed: 0.797 s <<< FAILURE! - in TestSuite
+beforeSuite(com.orangehrm.com.orangehrmlivee.homepage)  Time elapsed: 0.609 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\automation_1june\com.orangehrmlivee\driver\chromedriver.exe
+

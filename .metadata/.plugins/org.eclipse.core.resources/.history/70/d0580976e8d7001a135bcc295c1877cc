@@ -1,0 +1,20 @@
+Feature: checking the login functionallity
+#Scenario: checking the login functionality with valid credtianls
+#
+#Given user is on login page
+#Then user enter username in username textfeild and password
+#
+#Then user clicks on Login button
+#Then user is on Homepage
+ 
+ 
+ Scenario Outline: login the application with valid credentials
+ Given user is on login page
+Then user enter "<username>" in username textfeild and "<password>"
+
+Examples:
+|username | password |
+|admin |admin |
+|Admin | admin123|
+
+ Then user clicks on Login button 

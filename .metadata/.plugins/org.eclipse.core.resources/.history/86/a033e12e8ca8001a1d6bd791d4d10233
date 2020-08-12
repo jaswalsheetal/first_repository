@@ -1,0 +1,60 @@
+package facebook;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class facebook {
+
+	private static final char[] DOWN = null;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String path=	System.getProperty("user.dir")+"//driver//chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		String Title=driver.getCurrentUrl();
+		System.out.println(Title);
+		WebElement firstname=driver.findElement(By.id("u_0_m"));
+firstname.sendKeys("sheetal");
+System.out.println(firstname);
+driver.findElement(By.name("lastname")).sendKeys("jaswal");
+driver.findElement(By.id("u_0_r")).sendKeys("9805260338");
+driver.findElement(By.id("u_0_w")).sendKeys("kangraman");
+//Select select=new Select(driver.findElement(By.id("day")));
+//List<WebElement> drop=select.getOptions();
+//for(int i=0;i<drop.size();i++)
+//{
+	//String DOWN=drop.get(i).getText();
+
+//System.out.println(DOWN);
+//}
+//Select select1=new Select(driver.findElement(By.id("month")));
+//List<WebElement> drop1=select1.getOptions();
+//for(int i=0;i<drop1.size();i++)
+//{
+	//String down1=drop.get(i).getText();
+	//System.out.println(down1);
+//}
+//Select select2=new Select(driver.findElement(By.id("year")));
+//List<WebElement> drop2=select2.getOptions();
+//for(int i=0;i<drop2.size();i++)
+//{
+	//String down2=drop2.get(i).getText();
+	//System.out.println(down2);
+//}
+List<WebElement> gender=driver.findElements(By.id("//input[@type='radio']"));
+for(int ir=0;ir<gender.size();ir++)
+{
+	String value=gender.get(ir).getAttribute("value");
+
+	System.out.println(value);
+}
+driver.close();
+}
+}

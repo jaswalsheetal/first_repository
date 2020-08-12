@@ -1,0 +1,15 @@
+package com.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LOGINPAGE  {
+@FindBy(id="txtUsername")
+WebElement uname;
+@FindBy(id="txtPassword")
+WebElement pass;
+@FindBy(id="btnLogin")
+WebElement button;
+@FindBy(linkText="Forgot your password?")
+WebElement forget;
+}

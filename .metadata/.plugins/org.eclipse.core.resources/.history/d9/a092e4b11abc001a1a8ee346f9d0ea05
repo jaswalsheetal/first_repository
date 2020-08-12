@@ -1,0 +1,18 @@
+package webtable;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class third {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String path=System.getProperty("user.dir")+"//driver//chromedriver.exe";
+		 System.setProperty("webdriver.chrome.driver", path);
+		 WebDriver driver =new ChromeDriver();
+		 driver.manage().deleteAllCookies();
+		 driver.get("http://demo.automationtesting.in/WebTable.html");
+
+	}
+
+}
